@@ -1,0 +1,262 @@
+//index
+.intro{
+    color: $black;
+    h3{
+        margin-top: 2em;
+    }
+    h1{
+        font-weight: $textSbold;
+    }
+    a{
+        border: none;
+        color: $white2;
+        width: 45%;
+        background-image:linear-gradient($black,$black);
+        transition: background-size .5s; 
+        &:hover{
+            color: $white2;
+            background-image:linear-gradient($mainColor,$mainColor);
+            background-size: 100% 2px;
+            cursor: pointer;
+        }
+    }
+    img{
+        padding: 1em;
+        border-top-right-radius:2em;
+        border-bottom-left-radius: 2em;
+    }
+}
+.intro2{
+    color: $black;
+    h3{
+        padding-left: 0.5em;
+    }
+    a{
+        img{
+            padding: 1em;
+            border-top-right-radius:2em ;
+            border-bottom-left-radius: 2em;
+        }
+    }
+    
+}
+.intro3{
+    height: 500px;
+    background-image: url(../multimedia/header/pan_inicio.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    .caption{
+        margin-top: 15em;
+        margin-left: 1.2em;
+        width: 100%;
+        background-color: $black2;
+        height: 150px;
+    }
+}
+
+//nosotros
+#head{
+    background-image: url(../multimedia/header/nosotros.webp);
+    height: 500px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    .mask{
+        background-color: $black2;
+        position:relative;
+        width: 100% !important;
+        margin-top: 10em;
+        padding: 2em;
+    }
+}
+#nosotros{  
+        font-family: $mainFont;
+        h1{
+            text-align: center;
+         }         
+         .intro{
+            video{
+                padding: 2em;
+             }
+            p{
+                padding-top: 1.8em;
+                font-family: $mainFont;
+                font-size: $textSm;
+            }
+        }
+        .timeline{
+            img{
+                width: 50%;
+                border-top-right-radius:2em ;
+                border-bottom-left-radius: 2em;
+            }
+            p{
+                padding:0 3em;
+            }
+        }
+}
+
+//productos
+#headProd{
+    background-image: url(../multimedia/header/productos.webp);
+    height: 500px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    .mask{
+        background-color: $black2;
+        position:relative;
+        width: 100% !important;
+        margin-top: 10em;
+        padding: 2em;
+    }
+}
+#productos{
+    font-family: $mainFont;
+    h4{
+        font-size: $textXl;
+        font-weight: $textEbold;
+    }
+    .card{
+        .card-img{
+            overflow: hidden;
+            img{
+                transition: all 1.3s ease;
+                &hover{
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }        
+}
+
+//clientes
+#headCli{
+    font-family: $mainFont;
+    background-image: url(../multimedia/header/clientes.webp);
+    height: 500px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .mask{
+        background-color: $black2;
+        position:relative;
+        width: 100% !important;
+        margin-top: 10em;
+        padding: 2em;
+    }
+    img{
+        width: 50%;
+        border-top-right-radius:2em ;
+        border-bottom-left-radius: 2em;
+    }
+}
+#cliente{
+    h3{
+        font-size: $textXl;
+        font-weight: $textSbold;
+    }
+    p{
+        font-size: $textMd;
+    }
+} 
+
+//contacto
+#headContact{
+    font-family: $mainFont;
+    background-image: url(../multimedia/header/contacto.webp);
+    height: 500px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .mask{
+        background-color: $black2;
+        position:relative;
+        width: 100% !important;
+        margin-top: 10em;
+        padding: 2em;
+    }
+    img{
+        width: 50%;
+        border-top-right-radius:2em ;
+        border-bottom-left-radius: 2em;
+    }
+}
+.c-title{
+    font-family: $mainFont;
+    margin-top: 1.2em;
+    color: $mainColor;
+}
+#contacto{
+    font-family: $mainFont;
+    margin-top: 1.2em;
+    margin-bottom: 2em;
+    background-image: url(../multimedia/imagenes/background.webp);
+    background-size:cover;
+    background-repeat:inherit;
+    background-position: center;
+    h1{
+        color: $mainColor;
+    }
+    label{
+        margin-top: 1.2em;
+    }
+    input{
+        margin-top: .2em;
+    }
+    .btn{
+        margin-top: 1.2em;
+        border: none;
+        color: $white;
+        width: 45%;
+        background-color: $mainColor;
+        &hover{
+            background-color: $black;
+        }
+    }
+    a{
+        border: none;
+        color: $white2;
+        width: 45%;
+        background-image:linear-gradient($mainColor,$mainColor);
+        transition: background-size .5s; 
+        &:hover{
+            color: $white2;
+            background-image:linear-gradient($black,$black);
+            background-size: 100% 2px;
+            cursor: pointer;
+        }
+    }
+    p{
+        color: $mainColor;
+    }
+}
+        
+        
+       
+
+
+//prueba
+#error{
+    font-family: $mainFont;
+    margin-top: 10em;
+    h1{
+        color: $mainColor;
+    }
+    a{
+        border: none;
+        color: $white2;
+        width: 45%;
+        background-image:linear-gradient($mainColor,$mainColor);
+        transition: background-size .5s; 
+        margin-left:30%; ;
+         &:hover{
+            color: $black;
+            background-image:linear-gradient($secondaryColor,$secondaryColor);
+            background-size: 100% 2px;
+            cursor: pointer;
+        }
+    }
+
+}
